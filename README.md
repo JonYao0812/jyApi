@@ -1,2 +1,0 @@
-# jyApi
-dotnet api practice
