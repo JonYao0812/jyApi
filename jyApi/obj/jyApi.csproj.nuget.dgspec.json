@@ -1,28 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chengzhongito/Desktop/jyApi/jyApi/jyApi.csproj": {}
+    "C:\\Users\\JonY\\Desktop\\jyApi\\jyApi\\jyApi.csproj": {}
   },
   "projects": {
-    "/Users/chengzhongito/Desktop/jyApi/jyApi/jyApi.csproj": {
+    "C:\\Users\\JonY\\Desktop\\jyApi\\jyApi\\jyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chengzhongito/Desktop/jyApi/jyApi/jyApi.csproj",
+        "projectUniqueName": "C:\\Users\\JonY\\Desktop\\jyApi\\jyApi\\jyApi.csproj",
         "projectName": "jyApi",
-        "projectPath": "/Users/chengzhongito/Desktop/jyApi/jyApi/jyApi.csproj",
-        "packagesPath": "/Users/chengzhongito/.nuget/packages/",
-        "outputPath": "/Users/chengzhongito/Desktop/jyApi/jyApi/obj/",
+        "projectPath": "C:\\Users\\JonY\\Desktop\\jyApi\\jyApi\\jyApi.csproj",
+        "packagesPath": "C:\\Users\\JonY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JonY\\Desktop\\jyApi\\jyApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/chengzhongito/.config/NuGet/NuGet.Config"
+          "C:\\Users\\JonY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,26 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.10, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.10, )"
-            },
-            "MySql.Data.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.20, )"
-            },
-            "MySqlConnector": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,12 +49,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.8, 3.1.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -84,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
